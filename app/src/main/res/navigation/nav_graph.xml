@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.panoslice.meldphotocollage.ui.splash.SplashFragment">
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeScreenFragment"
+            app:destination="@id/homeScreenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="com.panoslice.meldphotocollage.ui.home.HomeFragment">
+        <action
+            android:id="@+id/action_homeScreenFragment_to_canvasFragment"
+            app:destination="@id/canvasFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/canvasFragment"
+        android:name="com.panoslice.meldphotocollage.ui.canvas.core.CanvasFragment">
+    </fragment>
+
+</navigation>

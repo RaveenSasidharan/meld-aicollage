@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Meld</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BASE_URL">https://run.mocky.io/</string>
+
+    <string name="no_network_connectivity">No internet connection</string>
 </resources>

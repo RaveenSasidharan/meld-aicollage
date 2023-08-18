@@ -1,4 +1,4 @@
-package com.panoslice.meldaicollage
+package com.panoslice.meldphotocollage
 
 import org.junit.Test
 
