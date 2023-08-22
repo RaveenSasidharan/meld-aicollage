@@ -3,12 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.splash.SplashFragment">
+    tools:context=".ui.splash.SplashFragment"
+    android:background="@color/black">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/splash_logo"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/splash"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meld"
+            android:textColor="@color/white"
+            android:textSize="@dimen/splash_logo_fontsize"
+            android:fontFamily="@font/monumentextended_regular"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/splash"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By"
+            android:textColor="@color/white"
+            android:alpha="0.7"
+            android:textSize="@dimen/font_size_12sp"
+            android:fontFamily="@font/futuranowheadline"
+            android:layout_gravity="center_horizontal"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blank Canvas Design Co."
+            android:alpha="0.7"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_12sp"
+            android:fontFamily="@font/futuranowheadline"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
 
 </FrameLayout>

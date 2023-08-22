@@ -5,4 +5,5 @@
     <string name="BASE_URL">https://run.mocky.io/</string>
 
     <string name="no_network_connectivity">No internet connection</string>
+    <string name="meld">MELD</string>
 </resources>
